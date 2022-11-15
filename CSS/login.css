@@ -1,0 +1,98 @@
+.collection-info {
+  width: 100%;
+  min-height: calc(100vh - 72px);
+  display: flex;
+  align-items: center;
+  direction: rtl;
+}
+
+.myForm {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 6px;
+  border-bottom: 2px solid var(--alt-color);
+  box-shadow: 0 0 10px #ddd;
+  height: 100%;
+}
+
+.myForm h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 15px;
+}
+
+.myForm form {
+  width: 100%;
+}
+
+.myForm form input {
+  display: block;
+  margin: 15px 0;
+  padding: 8px 15px;
+  width: 100%;
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  transition: .5s;
+}
+
+.myForm form input:focus {
+  box-shadow: 0 0 3px 4px var(--alt-color);
+}
+
+.myForm form span {
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--alt-color);
+  width: fit-content;
+  margin: 0 auto;
+  transition: 0.5s;
+  opacity: .8;
+}
+
+.myForm form span:hover {
+  opacity: 1;
+}
+
+.myForm form input[type="submit"] {
+  background-color: var(--alt-color);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 0;
+  opacity: .7;
+  transition: .5s;
+}
+
+.myForm form input[type="submit"]:hover {
+  opacity: 1;
+}
+
+.col-12:nth-child(2) .myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-12:nth-child(2) .myForm p {
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 2;
+}
+
+.col-12:nth-child(2) p a {
+  text-decoration: none;
+  color: var(--alt-color);
+  margin-right: 6px;
+  opacity: .7;
+  transition: .5s;
+}
+
+
+.col-12:nth-child(2) p a:hover{
+  opacity: 1;
+}

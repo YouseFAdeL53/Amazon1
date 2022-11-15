@@ -1,0 +1,157 @@
+.user-top {
+  direction: rtl;
+}
+
+.user-top .content {
+  margin: 30px 0;
+  background-color: #FFF;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #DDD;
+  border-bottom: 3px solid var(--alt-color);
+}
+
+.user-top .main-title {
+  text-align: center;
+  margin: 15px auto 0;
+}
+
+.text-right {
+  display: flex;
+  gap: 20px;
+}
+
+.information {
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.information li {
+  font-size: 17px;
+  color: #707070;
+  margin: 5px 0;
+}
+
+.text-left {
+  gap: 20px;
+  height: 100%;
+}
+
+.text-right span {
+  font-size: 19px;
+}
+
+.text-right h3 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.user-top .text-left span {
+  display: block;
+  margin: 10px 0;
+  font-size: 17px;
+  color: #707070;
+  font-weight: 500;
+}
+
+
+/* start user-body */
+.user-body {
+  padding: 0 0 30px;
+  direction: rtl;
+}
+
+.collection-body {
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 6px;
+  box-shadow: 0 0 10px #ddd;
+  border-bottom: 3px solid var(--alt-color)
+}
+
+.text-body {
+  display: flex;
+  gap: 20px;
+}
+
+.text-body span {
+  font-size: 19px;
+}
+
+.text-body h3 {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.ways {
+  padding: 15px 0;
+}
+
+.ways form label {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 9px;
+}
+
+.ways form input[type="text"] {
+  padding: 8px 15px;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 15px;
+  width: 300px;
+  transition: .3s;
+}
+
+.ways form input[type="text"]:focus {
+  box-shadow: 0 0 3px 3px var(--alt-color);
+}
+
+.ways form input[type="submit"] {
+  width: 60px;
+  padding: 7px 15px;
+  border-radius: 6px;
+  border: 1px solid var(--alt-color);
+  font-size: 15px;
+  font-weight: bold;
+  background-color: var(--alt-color);
+  color: #fff;
+}
+
+
+@media(max-width:767px) {
+  .ways form input[type="submit"] {
+    margin-top: 15px;
+  }
+}
+
+
+.pay {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding-top: 30px;
+}
+
+.pay form input {
+  height: 30px;
+  width: 20px;
+}
+
+.pay .pay-text h2 {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.pay .pay-text p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 17px;
+  color: #707070;
+}
+
+.rule-text {
+  margin-top: 30px;
+}
